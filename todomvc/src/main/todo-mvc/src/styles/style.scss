@@ -1,0 +1,68 @@
+$background-grey: #f3f3f3;
+$button-grey: #5e5e5e;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100px;
+  line-height: 1.3rem;
+  background-color: $background-grey;
+  text-align: center;
+}
+
+button{
+	color: inherit;
+	margin: 3px;
+	padding: 3px 7px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.container{
+	font-size: 1.3rem;
+	text-align: center;
+
+}
+
+.is-completed{
+	text-decoration: line-through;
+	color: $button-grey;
+	font-size: 1.3rem;
+	text-align: center;
+	border-style: outset;
+	margin:5rem 0;
+	padding-right: 20em;
+    width: 100%;
+}
+
+.not-completed{
+	text-align: center;
+	border-style: outset;
+	font-size: 1.3rem;
+	text-align: center;
+	padding-right: 20em;
+	margin:5rem 0;
+    width: 100%;
+}
+
+.todolist-input{
+	font-size: 1.3rem;
+	margin:1rem 0;
+	border: none;
+	padding: 16px 20em 10px 40px;
+	border-style: outset;
+    width: 40%;
+}
+
+.todolist-task{
+	padding: .5rem;
+	text-align: left;
+}
+.todoapp h1 {
+	font-size: 100px;
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+    width: 100%;
+}
+.button-add{
+	display: none;
+}
